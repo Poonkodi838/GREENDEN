@@ -1,0 +1,175 @@
+.{
+  margin: 0%;
+  padding: 0;
+}
+body{
+    font-family: "Sora", sans-serif;
+    
+}
+.navbar{
+  
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(177, 238, 180) ;
+  color: black;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  top: 0px;
+  
+
+
+
+}
+
+.navbar__s2{
+  display: flex;
+  gap: 15px;
+  color:black; 
+  font-size: 20px;
+
+}
+.sale__image{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background-color:rgb(177, 238, 180) ;
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+
+}
+.sale__image button{
+  font-size: 15px;
+  padding: 10px;
+  gap: 10px;
+  background-color:rgb(177, 238, 180)  ;
+  color:black;
+}
+
+
+  
+
+.about{
+  margin: 20px;
+  text-align: center;
+}
+
+.about__list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+
+}
+
+.about__list__1{
+  border: solid black 1px;
+  width: 300px;
+  padding: 10px;
+  margin: 30px;
+}
+.about__list__1 h1{
+  text-align: center;
+}
+.about__list__1 h2{
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+.about__list__1 p{
+  font-style: none;
+  padding: 5px;
+
+  
+}
+.plants{
+  margin: 20px;
+}
+.plants__title{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.plants__list{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  
+
+}
+.plants__list1{
+  padding-left: 60px;
+  width: 20%;
+
+}
+.plants__list1 h2{
+  font-size: 15px;
+}
+
+.plants__list1 img{
+  width: 100px;
+  border: solid black 1px;
+  height: 50%;
+}
+.plants__list1 p{
+  position: relative;
+  left:30px
+}
+.review{
+  margin: 20px;
+
+
+}
+.review__title{
+  text-align: center;
+}
+
+
+
+.review__list{
+  margin: 20px;
+
+
+}
+
+.review__list__1{
+  border: solid black 1px;
+  padding: 10px;
+  margin: 30px;
+  background-color:rgb(14, 71, 43);
+  color: white;
+}
+.review__list__1 h1{
+  font-size: 15px;
+  color: yellow;
+}
+
+.section{
+  margin: 20px;
+  text-align: center;
+}
+
+.section button{
+  margin: 20px;
+  padding: 20px;
+  background-color:rgb(14, 71, 43) ;
+  color: white;
+  text-decoration: underline;
+}
+.section1{
+  background-color:rgb(177, 238, 180)  ;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+}
